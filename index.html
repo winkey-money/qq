@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Программа</title>
 </head>
-<body>
-    <h1>КУУУ</h1>
+    <script>
+        let пирожок, чебурек
+        Number(document.getElementById("пирожок").value)
+        Number(document.getElementById("чебурек").value)
+        if (пирожок > чебурек) {
+            console.log("пирожок стоит больше чебурека")
+        }
+        else {
+            console.log("пирожок стоит не больше чебурека")
+        }
+    </script>
+    <body>
+        <input id = "пирожок"
+        type="number"
+        placeholder="200">
+        <input id = "чебурек"
+        type="number"
+        placeholder="230">
+        <button 
+        onclick="run()">Запустить</button>
+        <script>
+            function run() {
+                Number(document.getElementById("пирожок").value)
+                Number(document.getElementById("чебурек").value)
+                 if (пирожок > чебурек) {
+                console.log("пирожок стоит больше чебурека")
+               }
+                 else {
+            console.log("пирожок стоит не больше чебурека")
+            }
+            else
+        </script>
+    </body>
 </body>
 </html>
